@@ -5,13 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="calculator.css">
 	<title>Calculator</title>
 </head>
-<body>
+<body >
 	<h1>ONLINE  CALCULATOR</h1>
+	<h4 style="color: yellowgreen; margin-top: 10px; margin-left: 450px; font-size:25px">       -by Divya Porwal <h4>
 <form name="form" class="calc" action="calculator.html" method="POST">
 	
 	<input type="text" name="answer" id="display">
 	<br><br>
-	<input style="size: 10px;" type="button" class="btndesign" value="C" onclick="form.answer.value='  '">
+	<input type="button" class="btndesign" value="C" onclick="form.answer.value= ''">
 	<input type="button" class="btndesign" value="<" onclick="form.answer.value=form.answer.value.substring(0,form.answer.value.length*1-1)">
 	<input type="button" class="btndesign" value="00" onclick="form.answer.value+='00'">
 	<input type="button" class="operatordesign" value="/" onclick="form.answer.value+='/'">
